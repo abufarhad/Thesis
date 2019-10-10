@@ -19,10 +19,7 @@ class Params():
 
     def __init__(self, json_path):
         with open(json_path) as f:
-            print("Load File : ", f)
-            #If you want to convert JSON data to a Python dictionary, just use loads:
             params = json.load(f)
-            print("params : ", params)
             self.__dict__.update(params)
 
     def save(self, json_path):
