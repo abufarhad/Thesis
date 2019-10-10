@@ -1,0 +1,10 @@
+Endoplasmic.reticulum
+Golgi.apparatus
+Cell.membrane
+Extracellular
+Cytoplasm
+Nucleus
+Plastid
+Peroxisome
+Lysosome/Vacuole
+Mitochondrion
