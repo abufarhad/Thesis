@@ -83,6 +83,8 @@ class DataLoader(object):
     def data_iterator(self, data, params, shuffle=False):
         # make a list that decides the order in which we go over the data- this avoids explicit shuffling of data
         order = list(range(data['size']))
+
+        print(order)
         if shuffle:
             random.seed(230)
             random.shuffle(order)
